@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.navsec{
+    margin:30px auto;
+    display: flex;
+    align-items: center;
+}
+.navsec img{
+    max-width: 140px;
+}
+/*important for me*/
+nav{
+    flex: 1;
+    text-align: center;
+}
+/*important for me*/
+nav ul li{
+    display: inline-block;
+    margin:0px 30px;
+}
+nav ul li a{
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: none;
+}
+.navsec span{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+}
+
+
+
+
+.search-sec span{
+    width: 300px;
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.search-sec input[type="text"]{
+    position: absolute;
+    left:30px;
+    background: transparent;
+    border: none;
+    display: none;
+}
+.search-sec:hover.search-sec input[type="text"]{
+    display: block;
+    border-bottom: 1px solid black;
+    background: none;
+}
+
+
+.wrt{
+    position: absolute;
+    top: 150px;
+    left: 0%;
+    width: 500px;
+}
+.hwrt1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0%;
+    letter-spacing: 1px;
+    font-family: 'Lora', serif;
+}
+.sp1{
+    color: #000;
+}
+.sp2{
+    color:#f81452;
+}
+.hwrt2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0%;
+    letter-spacing: -0.6px;
+    font-family: 'Lora', serif;
+}
+.sp3{
+    color:#f81452;
+}
+.sp4{
+    color:#000;
+}
+
+.pwrt1{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.button{
+    position: absolute;
+    top: 420px;
+}
+.btn1{
+    margin-right: 20px;
+    padding:8px 20px;
+    border-radius: 16px;
+    color: #fff;
+    background:linear-gradient(#f0f,#f81452);
+}
+.btn1:hover{
+    text-decoration: none;
+    color:#fff
+}
+
+.btn2{
+    margin-right: 20px;
+    padding:8px 20px;
+    border-radius: 16px;
+    color: #f81452;
+    border:1px solid #f81452;
+}
+.btn2:hover{
+    text-decoration: none;
+    color:#f81452;
+}
+
+
+.social-link{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    align-items: center;
+}
+.hrl{
+    width: 160px;
+    height: 2px;
+    background-color: rgba(77, 76, 76, 0.705);
+}
+.social-link i{
+    margin-left: 25px;
+    color: rgba(77, 76, 76, 0.705);
+    font-size: 20px;
+}
+
+.img-main img{
+    position: absolute;
+    right: 0%;
+    max-width: 480px;
+}
